@@ -7,7 +7,7 @@ export const Productos = () => {
 
 
   return (
-    <div className='flex  justify-center flex-wrap'>
+    <div className='flex  justify-center flex-wrap md:mt-[51px]'>
       <Products productos={productoInicial} />
     </div>
   )

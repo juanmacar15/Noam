@@ -30,7 +30,7 @@ export const Categorias = () => {
         ))}
       </select>
       </div>
-      <div className='flex justify-center flex-wrap'>
+      <div className='flex justify-center flex-wrap md:mt-14'>
       <Products productos={productosFiltrados} />
       </div>
     </div>
