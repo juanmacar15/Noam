@@ -10,6 +10,9 @@ export const Nav = () => {
         <p className='mx-[10px] text-xl'>
         <NavLink className={({isActive}) => isActive ? 'border-b-4 border-pink-500 font-semibold' : null } to='/productos' >Productos</NavLink>
         </p>
+        <p className='mx-[10px] text-xl'>
+        <NavLink className={({isActive}) => isActive ? 'border-b-4 border-pink-500 font-semibold' : null } to='/categorias' >Categorias</NavLink>
+        </p>
     </nav>
   )
 }

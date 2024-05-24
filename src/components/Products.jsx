@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import { productos } from '../js/productosNoam'
 
-export const Products = () => {
+export const Products = ({productos}) => {
 
   const [isOpen, setIsOpen] = useState(false);
   const [modalImageSrc, setModalImageSrc] = useState('');
@@ -19,7 +18,6 @@ export const Products = () => {
     <>
       {
         productos.map(pro =>
-
           <div key={pro.id} className='flex flex-col items-center w-[40%] md:w-[25%] lg:w-[15%] m-4 md:m-8  rounded-3xl border-t-[5px] border-pink-400 shadow-2xl hover:shadow-pink-300'>
             <h1 className='text-center pt-3 lg:pt-5 font-extrabold text-sm '>{pro.nombre}</h1>
             <img className='w-[70%] cursor-pointer' src={pro.img} alt={pro.nombre} onClick={() => openModal(pro.img)}/>
@@ -32,7 +30,6 @@ export const Products = () => {
               </a>
             </div>
           </div>
-
         )
       }
       {isOpen && (

@@ -1,6 +1,7 @@
 import React from 'react'
 import frase from '../images/frase.png'
-import { Products } from '../components/Products'
+import { Products } from '../components/Products' 
+import { productos as productoInicial } from '../js/productosNoam';
 
 export const Inicio = () => {
     return (
@@ -9,7 +10,7 @@ export const Inicio = () => {
                 <img className='w-full hover:scale-105 duration-200' src={frase} alt="" />
             </section>
             <div className='flex justify-center flex-wrap'>
-                <Products/>
+                <Products productos={productoInicial} />
             </div>
         </div>
     )
