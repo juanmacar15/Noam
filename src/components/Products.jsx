@@ -27,7 +27,7 @@ export const Products = () => {
             <div className='w-full flex flex-col items-center '>
               <a className='md:w-[50%]  bg-pink-300 hover:bg-pink-500 my-3 mx-3 p-2 rounded-md ' href={`https://wa.me/573117205725/?text=Hola,%20esta%20disponible%20el%20producto:%20${pro.id}?%20${pro.img}`} target='blanñ'>
                 <p className='text-center'>
-                  Encargar
+                  Comprar
                 </p>
               </a>
             </div>
