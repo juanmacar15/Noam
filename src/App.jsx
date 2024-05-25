@@ -4,6 +4,7 @@ import { Productos } from "./modules/Productos"
 import { Inicio } from "./modules/Inicio"
 import { Categorias } from "./modules/Categorias"
 import { Footer } from "./components/Footer"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Footer/>
         </div>
       </BrowserRouter>
+      <SpeedInsights />
     </>
   )
 }
