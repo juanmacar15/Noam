@@ -9,7 +9,7 @@ export const productos = [
     {
         id:2,
         nombre:'Bolso colorido',
-        precio: 50000,
+        precio: 80000,
         img:'https://i.ibb.co/Rb5M8Tx/2.png',
         categoria:'Bolsos'
     },
@@ -26,5 +26,51 @@ export const productos = [
         precio: 50000,
         img:'https://i.ibb.co/C922nd5/4.png',
         categoria:'Bolsos'
-    }
+    },{
+        id:5,
+        nombre:'Bolso de flores',
+        precio: 40000,
+        img:'https://i.ibb.co/zQBq1bm/5.png',
+        categoria:'Bolsos'
+    },{
+        id:6,
+        nombre:'bolso arcoiris',
+        precio: 55000,
+        img:'https://i.ibb.co/CvfC8Zw/6.png',
+        categoria:'Bolsos'
+    },{
+        id:7,
+        nombre:'Bolso en trapillo',
+        precio: 60000,
+        img:'https://i.ibb.co/hLnjjPd/7.png',
+        categoria:'Bolsos'
+    },{
+        id:8,
+        nombre:'Bolso en trapillo',
+        precio: 50000,
+        img:'https://i.ibb.co/6PzrCmK/8.png',
+        categoria:'Bolsos'
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
 ] 
