@@ -41,7 +41,7 @@ export const productos = [
     },{
         id:7,
         nombre:'Bolso en trapillo',
-        precio: '60.000',
+        precio: '50.000',
         img:'https://i.ibb.co/hLnjjPd/7.png',
         categoria:'Bolsos'
     },{
